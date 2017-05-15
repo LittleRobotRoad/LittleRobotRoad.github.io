@@ -32,11 +32,11 @@
       
         <categories>
             
-            <category> android1 </category>
+            <category> android </category>
             
-            <category> linux1 </category>
+            <category> linux </category>
             
-            <category> golang1 </category>
+            <category> golang </category>
             
         </categories>
         
