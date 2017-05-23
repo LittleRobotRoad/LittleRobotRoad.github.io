@@ -130,6 +130,50 @@
   <section class="meta">
     
     <h2 class="title">
+      <a href="/2017/05/23/annotationProcessor/">
+        annotationProcessor
+      </a>
+    </h2>
+    
+    <time>
+      5月 23, 2017
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>今天看见一篇 Google 官方推出应用开发架构指南，想自己尝试一下，结果在导入官方库lifecycle和room的时候遇到了一些小麻烦</p>
+<ul>
+<li>androidstudio3.0 canary1版本，设置代理或者普通都链接不到<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">maven &#123; url <span class="string">'https://maven.google.com'</span> &#125;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>更换回正式版2.3.2正常了</p>
+<ul>
+<li>遭遇错误 Error:Failed to resolve: annotationProcessor </li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">android &#123;</div><div class="line">    ...</div><div class="line">    defaultConfig &#123;</div><div class="line">       ...</div><div class="line">        javaCompileOptions &#123;</div><div class="line">            annotationProcessorOptions &#123;</div><div class="line">                arguments = [<span class="string">"library"</span> : <span class="string">"true"</span>]</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"> &#125;</div></pre></td></tr></table></figure>
+<p>在使用annotationProcessor 的gradle里添加恢复正常</p>
+
+
+    
+    
+    
+	  <div class="full-width auto-padding tags">
+      
+        <a href="/tags/android/">android</a>
+      
+        <a href="/tags/gradle/">gradle</a>
+      
+	  </div>
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post reveal">
+  <section class="meta">
+    
+    <h2 class="title">
       <a href="/2017/05/15/test/">
         test
       </a>
@@ -263,7 +307,7 @@
 <div class="m_widget tagcloud">
     <div class="header">Tags</div>
     <div class='content'>
-        <a href="/tags/android/" style="font-size: 20px; color: #000">android</a> <a href="/tags/golang/" style="font-size: 14px; color: #808080">golang</a> <a href="/tags/linux/" style="font-size: 14px; color: #808080">linux</a>
+        <a href="/tags/android/" style="font-size: 20px; color: #000">android</a> <a href="/tags/golang/" style="font-size: 14px; color: #808080">golang</a> <a href="/tags/gradle/" style="font-size: 14px; color: #808080">gradle</a> <a href="/tags/linux/" style="font-size: 14px; color: #808080">linux</a>
     </div>
 </div>
 

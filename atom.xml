@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://niconico.lol/"/>
-  <updated>2017-05-15T06:47:03.141Z</updated>
+  <updated>2017-05-23T06:21:10.686Z</updated>
   <id>http://niconico.lol/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>annotationProcessor</title>
+    <link href="http://niconico.lol/2017/05/23/annotationProcessor/"/>
+    <id>http://niconico.lol/2017/05/23/annotationProcessor/</id>
+    <published>2017-05-23T06:02:08.010Z</published>
+    <updated>2017-05-23T06:21:10.686Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h2&gt;&lt;p&gt;今天看见一篇 Google 官方推出应用开发架构指南，想自己尝试一下，结果在导入官方库lifecycle和room的时候遇到了一些小麻烦&lt;/
+    
+    </summary>
+    
+    
+      <category term="android" scheme="http://niconico.lol/tags/android/"/>
+    
+      <category term="gradle" scheme="http://niconico.lol/tags/gradle/"/>
+    
+  </entry>
   
   <entry>
     <title>test</title>
